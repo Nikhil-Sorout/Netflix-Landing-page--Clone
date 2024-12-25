@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India - Watch TV shows online</title>
+    <script src="https://kit.fontawesome.com/d7f6b7ef5a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png"
+        type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <div class="wrapper">
+        <div class="filter"></div>
+        <div class="bg"></div>
+        <div class="first-slide">
+            <div class="first-sec">
+                <header>
+                    <div class="logo">
+                        <img src="./assets/netflix-logo-png-2562.png" alt="Netflix">
+                    </div>
+                    <div class="lang">
+                        <i class="fa-solid fa-globe"></i>
+                        <select name="lang" id="selected-language">
+                            <option value="None">English</option>
+                            <option value="Spanish">Spanish</option>
+                            <option value="Italian">Italian</option>
+                            <option value="German">German</option>
+                        </select>
+                        <i class="fa-solid fa-caret-down fa-xs"></i>
+                    </div>
+                    <div class="sign-in"><a href="">Sign In</a></div>
+                </header> 
+                <div class="sec-sec">
+                <p class="line-1"> Unlimited movies, TV shows and more</p>
+                <p class="line-2">Watch anywhere. Cancel anytime.</p>
+                <p class="line-3">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="get-started">
+                    <input type="email" id="emailId" placeholder="Email address" />
+                    <button onclick="">Get started <i class="fa-solid fa-greater-than"></i></button>
+                </div>
+            </div>
+            </div>
+           
+        </div>
+        <div class="second-slide">
+            <div class="left-sec">
+                <p class="head">Enjoy on your TV</p>
+                <p class="desc"> Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                </p>
+            </div>
+            <div class="right-sec">
+                <div id="tv-container">
+                    <img src="./assets/tv-removebg-preview.png" alt="">
+                    <video src="./assets/vdo1.mp4" autoplay muted loop>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="third-slide">
+        <div class="left-sec">
+            <div class="mobile-sec">
+                <img src="./assets/mobile-0819.jpg" alt="" id="phone">
+                <div class="download-sec">
+                    <img src="./assets/boxshot.png" alt="" id="boxshot-pic">
+                    <div class="desc">
+                        <p id="series-name">Stranger Things</p>
+                        <p id="download-desc">Downloading....</p>
+                    </div>
+                    <img src="./assets/download-icon.gif" alt="" id="downloading-gif">
+                </div>
+            </div>
+        </div>
+        <div class="right-sec">
+            <p id="third-slide-right-sec-head">Download your shows to watch offline</p>
+            <p id="third-slide-right-sec-desc">Save your favourites easily and always have something to watch.</p>
+        </div>
+    </div>
+    <div class="fourth-slide">
+        <div class="left-sec">
+            <p class="head">Watch everywhere</p>
+            <p class="desc"> Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <div class="right-sec">
+            <div id="multiple-screens">
+                <img src="./assets/device-pile-in.png" alt="">
+                <video src="./assets/vdo2.mp4" autoplay muted loop>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="fifth-slide">
+        <div class="left-sec">
+            <div class="children">
+                <img src="./assets/asset 0.png" alt="">
+            </div>
+        </div>
+        <div class="right-sec">
+            <p id="fifth-slide-right-sec-head">Create profiles for kids</p>
+            <p id="fifth-slide-right-sec-desc">Send children on adventures with their favourite characters in a space
+                made just for them—free with your membership..</p>
+        </div>
+    </div>
+    <div class="sixth-slide">
+        <div id="head">
+            Frequently Asked Questions
+        </div>
+        <div class="questions">
+            <div id="question1">
+                <p>What is Netflix?</p>
+                <i class="fa-solid fa-caret-down fa-xs"></i>
+            </div>
+            <div id="question2">
+                <p>How much does Netflix cost?</p>
+                <i class="fa-solid fa-caret-down fa-xs"></i>
+            </div>
+            <div id="question3">
+                <p>Where can I Watch?</p>
+                <i class="fa-solid fa-caret-down fa-xs"></i>
+            </div>
+            <div id="question4">
+                <p>How do I cancel?</p>
+                <i class="fa-solid fa-caret-down fa-xs"></i>
+            </div>
+            <div id="question5">
+                <p>What can I watch on Netflix?</p>
+                <i class="fa-solid fa-caret-down fa-xs"></i>
+            </div>
+            <div id="question6">
+                <p>Is Netflix good for kids?</p>
+                <i class="fa-solid fa-caret-down fa-xs"></i>
+            </div>
+        </div>
+        <div class="sixth-slide-get-started">
+            <p  id="tagline">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="get-started-last">
+                    <input type="email" id="emailId" placeholder="Email address" />
+                    <button onclick="">Get started <i class="fa-solid fa-greater-than"></i></button>
+                </div>
+        </div>
+    </div>
+    <div class="seventh-slide">
+        <div class="head">
+            <p>Questions?<a href=""> Call 000-800-919-1694</a></p>
+        </div>
+        <div class="help-links">
+            <div class="1">
+                <p><a href="">FAQ</a></p>
+                <p><a href="">Help Centre</a></p>
+                <p><a href="">Accounts</a></p>
+            </div>
+            <div class="2">
+                <p><a href="">Speed Test</a></p>
+                <p><a href=""> Legal Notices</a></p>
+                <p><a href="">Only on Netflix</a></p>
+            </div>
+            <div class="3">
+                <p><a href="">Media Centre</a></p>
+                <p><a href="">Investor Relations</a></p>
+                <p><a href="">Jobs</a></p>
+            </div>
+        </div>
+        <div class="lang">
+            <i class="fa-solid fa-globe"></i>
+            <select name="lang" id="selected-language">
+                <option value="None">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="Italian">Italian</option>
+                <option value="German">German</option>
+            </select>
+            <i class="fa-solid fa-caret-down fa-xs"></i>
+        </div>
+        <p id="last-text">Netflix India</p>
+    </div>
+    </div>
+</body>
+
+</html>
